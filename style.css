@@ -44,21 +44,14 @@ color: #6cc091;
     min-width: 320px;
     margin: 0;
 }
-img{
+.img{
     width: 100%;
 }
 p{
     text-align: center;
     padding: 20px;
 }
-/*PRODUCTOS*/
-.Productos{
-     padding: 50px 50px;
-     display: flex;
-     text-align: center;
-     
 
-}
 /* RESPONSIVE */
 @media(max-width:760px){
     .mostrar-menu, .esconder-menu{
