@@ -73,13 +73,12 @@ header a:hover{
 }
 #producto-uno .container{
     text-align: center;
-    padding: 200px 12px;
+    padding: 100px 12px;
 }
 h2{
     text-align: center;
 }
 #productos-dos{
-    background-color: rgba(255, 255, 255);
     text-align:center;
 }
 #productos-dos p{
@@ -87,11 +86,152 @@ h2{
 }
 
 #productos-dos .container{
-    padding: 200px 0px;
+    padding: 20px 12px;
 }
 .cartas-dos:first-child{
-    background-image: url(producto1.jpg);
+    background-image: url(producto2.jpg);
 }
 .cartas-dos:nth-child(2){
-    background-image: url(producto2.jpg);
+    background-image: url(producto3.jpg);
+}
+#productos-tres{
+   text-align: center;
+}
+#productos-tres p{
+    display: none;
+}
+#productos-tres .container{
+    padding: 20px 12px;
+}
+.cartas-tres:first-child{
+    background-image: url(producto4.jpg);
+}
+.cartas-tres:nth-child(2){
+    background-image: url(producto5.jpg);
+}
+.cartas-tres:nth-child(3){
+    background-image: url(producto6.jpg);
+}
+#productos-cuatro{
+    text-align: center;
+}
+#productos-cuatro p{
+    display: none;
+    
+}
+footer{
+    background-color: rgba(150, 150, 150);
+    display: flex;
+    justify-content: center;
+}
+footer .container{
+    flex-direction: column;
+    text-align: center;
+
+}
+footer p{
+    margin: 2px;
+    color: rgba(100, 100, 100);
+}
+@media (min-width:720px) {
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header.container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    #producto-uno .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #procuto-uno .texto{
+        width: 50%;
+        text-align: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #producto-uno .img-uno{
+        background-image: url(producto1.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 900px;
+
+    }
+    #productos-dos .container{
+        display: flex;
+        justify-content: center;
+    }
+    #productos-dos p{
+        display:block;
+        background-position: center center;
+    }
+    #productos-dos h3{
+        margin-top: 0;
+
+    }
+    #productos-dos .cartas-dos{
+        padding: 15px;
+        margin-bottom: 30px;
+
+    }
+    #productos-tres .container{
+        display: flex;
+        justify-content: center;
+    }
+    #productos-tres p{
+        display: block;
+        background-position: center center;
+    }
+    #productos-tres h3{
+        margin-top: 0;
+    }
+    #productos-tres .cartas-tres{
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    #productos-cuatro .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    #productos-cuatro .img-dos{
+            background-image: url(categoria1.jpg);
+            background-size: cover;
+            background-position: center center;
+            height: 100px;
+            width: 200px;
+    }
+    #productos-cuatro .img-2{
+        background-image: url(categoria2.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 100px;
+        width: 200px;
+}
+#productos-cuatro .img-3{
+    background-image: url(categoria3.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100px;
+    width: 200px;
+}
+    #productos-cuatro p{
+        display: block;
+        background-position: center center;
+    }
+    #productos-cuatro h3{
+        margin-top: 0;
+    }
+    #pproductos-cuatro .cartas-cuatro{
+        padding: 15px;
+
+    }
 }
